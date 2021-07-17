@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./css/Contacto.css" />
+  </head>
+  <body>
+    <header>
+      <div class="overlay"></div>
+      <nav>
+        <h2>EL ASADOR</h2>
+        <ul>
+          <li><a href="cart.html">Inicio</a></li>
+          <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="contact">
+      <div class="u-wrapper">
+        <div class="contact-content">
+  
+          <form id="form" action="" class="form">
+            <h3 class="tag"><span>Formulario de Contacto</span></h3>
+            <label for="name">Nombre Completo <span>*</span></label>
+            <input name="name" required type="text" id="name" placeholder="Juan">
+            <label for="email">Correo electrónico <span>*</span></label>
+            <input name="email" type="text" id="email" required placeholder="juan@gmail.com">
+            <label for="message">Mensaje</label>
+            <textarea id="message" name="message" id="" cols="30" rows="10"></textarea>
+            <button type="submit" class="btn primary full">enviar mensaje</button>
+          </form>
+          <a href="mailto:Nahuellopez073@gmail.com" id="gmailEvent"></a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <address class="dataFooter">
+        Nahuel C. Lopez<br>
+        Rosario,Santa Fe,Argentina <br>
+        2021 © Todos los Derechos Reservados
+      </address>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scriptContacto.js"></script>
+  </body>
+</html>

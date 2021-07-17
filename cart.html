@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carro</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="overlay"></div>
+        <nav>
+            <h2 class="title">EL ASADOR</h2>
+            <ul>
+                <li><a href="cart.html">Inicio</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+                <li class="cart">
+                    <a href="cart.html">
+                        <img src="img/Carrto.png" class="imgCarro" alt="Imagen de un carro de compras" > <span>0</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Promociones y Descuentos</h1>
+    <button class="btn-hide">Mostrar Menos</button>
+    <button class="btn-show">Mostrar Mas</button>
+    <table>
+        <thead>
+          <tr>
+          <td scope="row">Dias</td>
+            <td>Lunes</td>
+            <td>Martes</td>
+            <td>Miercoles</td>
+            <td>Jueves</td>
+            <td>Viernes</td>
+            <td>Sabado</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+          <td>Big Mark</td>
+            <td>10%</td>
+            <td>2x1</td>
+            <td>-</td>
+            <td>-</td>
+            <td>5%</td>
+            <td>15%</td>
+          </tr>
+          <tr>
+          <td>Cajita </td>
+            <td>-</td>
+            <td>10%</td>
+            <td>-</td>
+            <td>2x1</td>
+            <td>5%</td>
+            <td>-</td>
+          </tr>
+          <td>ChessBurguer </td>
+            <td>-</td>
+            <td>10%</td>
+            <td>5%</td>
+            <td>-</td>
+            <td>2x1</td>
+            <td>-</td>
+           </tr>
+           <td>Supreme </td>
+            <td>-</td>
+            <td>-</td>
+            <td>10%</td>
+            <td>5%</td>
+            <td>15%</td>
+            <td>2x1</td>
+        </tbody>
+      </table>
+
+    <div class="container">
+        <div class="image">
+            <img class="imgProductos" src="Img/hamburguesa1.jpg" alt="">
+            <h3 class="productTitle">Big Mark</h3>
+            <h3 class="price">$100</h3>
+            <h3 class="tag">Grande</h3>
+            <a href="#" class="add-cart cart1">Agregar</a>
+            <input type="hidden" value="15">
+        </div>
+        <div class="image">
+            <img class="imgProductos" src="Img/hamburguesa2.jpg" alt="">
+            <h3>Especial</h3>
+            <h3>$150</h3>
+            <h3 class="tag">Mediana</h3>
+            <a href="#" class="add-cart cart2">Agregar</a>
+            <input type="hidden" value="20">
+        </div>
+        <div class="image">
+            <img class="imgProductos" src="Img/hamburguesa3.jpg" alt="">
+            <h3>ChessBurguer</h3>
+            <h3>$340</h3>
+            <h3 class="tag">Grande</h3>
+            <a href="#" class="add-cart cart3">Agregar</a>
+            <input type="hidden" value="15">
+        </div>
+        <div class="image">
+            <img class="imgProductos" src="Img/hamburguesa4.jpg" alt="">
+            <h3>Supreme</h3>
+            <h3>$1000</h3>
+            <h3 class="tag">XXL</h3>
+            <a href="#" class="add-cart cart4">Agregar</a>
+            <input type="hidden" value="15">
+        </div>
+    </div>
+    
+    <p id="DtPersonales"></p>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
